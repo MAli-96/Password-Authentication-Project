@@ -1,242 +1,54 @@
 const users = [
     
-    {
-        "first_name": "Abran",
-        "last_name": "Bulteel",
-        "email": "abulteel0@jugem.jp",
-        "password": "R0YQFnbZY"
-    },
-      
-    {
-        "first_name": "Sheffie",
-        "last_name": "Jobling",
-        "email": "sjobling1@bbc.co.uk",
-        "password": "zqZoCz"
-    },
+    {"name":"Bank Crossman","email":"bcrossman0@salon.com","password":"rYn3u10V"},
+
+    {"name":"Jackie Staley","email":"jstaley1@geocities.jp","password":"ObE1BA"},
     
-    {
-        "first_name": "Harlin",
-        "last_name": "Treadgold",
-        "email": "htreadgold2@spotify.com",
-        "password": "zFFqwb1E"
-    },
+    {"name":"Lawry Kowalik","email":"lkowalik2@utexas.edu","password":"xwfYi5KYC"},
+
+    {"name":"Lincoln Backler","email":"lbackler3@furl.net","password":"rehZYs9L"},
+
+    {"name":"Harman Springthorpe","email":"hspringthorpe4@ihg.com","password":"ye0RFxC"},
+
+    {"name":"Donnell Lembrick","email":"dlembrick5@ucsd.edu","password":"07Sw0e"},
+
+    {"name":"Talyah Midghall","email":"tmidghall6@timesonline.co.uk","password":"MwR9OkiZxY"},
+
+    {"name":"Papagena Deighton","email":"pdeighton7@army.mil","password":"rpJgszbGrw"},
+
+    {"name":"Aguie Turbitt","email":"aturbitt8@auda.org.au","password":"DTt8TU"},
+
+    {"name":"Keane Morman","email":"kmorman9@parallels.com","password":"T3kUloQ"},
+
+    {"name":"Ezequiel Burnhill","email":"eburnhilla@europa.eu","password":"lBll7TEs"},
+
+    {"name":"Rochette Hunnaball","email":"rhunnaballb@weather.com","password":"ZoAB8Eu6uH"},
+
+    {"name":"Tulley Beaulieu","email":"tbeaulieuc@loc.gov","password":"VXXLb8y9N"},
+
+    {"name":"Madalena Baudassi","email":"mbaudassid@seattletimes.com","password":"7a4S5rh"},
+
+    {"name":"Miles Atteridge","email":"matteridgee@about.com","password":"8cOknJE1Vv"},
+
+    {"name":"Halie Natalie","email":"hnatalief@boston.com","password":"Q0nmyu"},
+
+    {"name":"Britteny Pherps","email":"bpherpsg@cisco.com","password":"BWW3OLUE5"},
+
+    {"name":"Laughton Booty","email":"lbootyh@omniture.com","password":"EpfIJzT"},
     
-    {
-        "first_name": "Basile",
-        "last_name": "Stoacley",
-        "email": "bstoacley3@shutterfly.com",
-        "password": "hauP6FS"
-    },
-      
-    {
-        "first_name": "Barbara-anne",
-        "last_name": "Chavez",
-        "email": "bchavez4@lulu.com",
-        "password": "YSvVEtGSLUlS"
-    },
-    
-    {
-        "first_name": "Bert",
-        "last_name": "Jacques",
-        "email": "bjacques5@acquirethisname.com",
-        "password": "qZB9UsE4"
-    },
-    
-    {
-        "first_name": "Kimberlee",
-        "last_name": "Readshaw",
-        "email": "kreadshaw6@yelp.com",
-        "password": "sKgKegTm5"
-    },
-    
-    {
-        "first_name": "Patrick",
-        "last_name": "Saipy",
-        "email": "psaipy7@cloudflare.com",
-        "password": "aejZT7Y02Uj"
-    },
-    
-    {
-        "first_name": "August",
-        "last_name": "Gilhouley",
-        "email": "agilhouley8@netlog.com",
-        "password": "Lbae8HbPQD6"
-    },
-    
-    {
-        "first_name": "Lucas",
-        "last_name": "Patriche",
-        "email": "lpatriche9@abc.net.au",
-        "password": "hOLowJyOpGA"
-    },
-    
-    {
-        "first_name": "Leopold",
-        "last_name": "Pimmocke",
-        "email": "lpimmockea@globo.com",
-        "password": "RQQeAmuCocqJ"
-    },
-    
-    {
-        "first_name": "Nickey",
-        "last_name": "Wann",
-        "email": "nwannb@chicagotribune.com",
-        "password": "uQhMG242mon"
-    },
-    
-    {
-        "first_name": "Ryan",
-        "last_name": "Coytes",
-        "email": "rcoytesc@washington.edu",
-        "password": "4tL5KFkGwfH4"
-    },
-    
-    {
-        "first_name": "Zena",
-        "last_name": "Allwright",
-        "email": "zallwrightd@prnewswire.com",
-        "password": "mzEAZrPA"
-    },
-    
-    {
-        "first_name": "Ham",
-        "last_name": "Elies",
-        "email": "heliese@wordpress.com",
-        "password": "ClTyV0g"
-    },
-    
-    {
-        "first_name": "Dominica",
-        "last_name": "Treves",
-        "email": "dtrevesf@vimeo.com",
-        "password": "J9pZv2G"
-    },
-    
-    {
-        "first_name": "Hershel",
-        "last_name": "Waleworke",
-        "email": "hwaleworkeg@tiny.cc",
-        "password": "9I6wtg"
-    },
-    
-    {
-        "first_name": "Carney",
-        "last_name": "Burcombe",
-        "email": "cburcombeh@youtube.com",
-        "password": "vTYbzj2"
-    },
-    
-    {
-        "first_name": "Inness",
-        "last_name": "Wards",
-        "email": "iwardsi@flavors.me",
-        "password": "9y5UhWW"
-    },
-    
-    {
-        "first_name": "Enoch",
-        "last_name": "Vannoort",
-        "email": "evannoortj@ucsd.edu",
-        "password": "fNupAK"
-    },
-    
-    {
-        "first_name": "Dixie",
-        "last_name": "Routley",
-        "email": "droutleyk@free.fr",
-        "password": "iH0PUwpUj"
-    },
-    
-    {
-        "first_name": "Bartlet",
-        "last_name": "Kitman",
-        "email": "bkitmanl@unblog.fr",
-        "password": "DOxNHF40f"
-    },
-    
-    {
-        "first_name": "Suki",
-        "last_name": "Wickstead",
-        "email": "swicksteadm@about.com",
-        "password": "wGwfoUkS2PL"
-    },
-    
-    {
-        "first_name": "Serge",
-        "last_name": "Escofier",
-        "email": "sescofiern@is.gd",
-        "password": "OTAJCLDI3"
-    },
-    
-    {
-        "first_name": "Sadie",
-        "last_name": "Pugsley",
-        "email": "spugsleyo@ca.gov",
-        "password": "0X6Pu895j5YA"
-    },
-    
-    {
-        "first_name": "Norah",
-        "last_name": "Tregale",
-        "email": "ntregalep@ed.gov",
-        "password": "GsccwcSzz"
-    },
-    
-    {
-        "first_name": "Marion",
-        "last_name": "Dibble",
-        "email": "mdibbleq@storify.com",
-        "password": "Av07Z4c"
-    },
-    
-    {
-        "first_name": "Robina",
-        "last_name": "Synke",
-        "email": "rsynker@angelfire.com",
-        "password": "GSWOa3"
-    },
-    
-    {
-        "first_name": "Artemis",
-        "last_name": "Swindells",
-        "email": "aswindellss@loc.gov",
-        "password": "eU9UbThEbQY"
-    },
-    
-    {
-        "first_name": "Justinian",
-        "last_name": "Hanaford",
-        "email": "jhanafordt@bizjournals.com",
-        "password": "L7rWrcgp18rn"
-    },
-    
-    {
-        "first_name": "Patin",
-        "last_name": "Creane",
-        "email": "pcreaneu@so-net.ne.jp",
-        "password": "dBgV59qM30R"
-    },
-    
-    {
-        "first_name": "Brenn",
-        "last_name": "Adderson",
-        "email": "baddersonv@soup.io",
-        "password": "jwkzh3PPgb"
-    },
-    
-    {
-        "first_name": "Timmy",
-        "last_name": "Gosnold",
-        "email": "tgosnoldw@networksolutions.com",
-        "password": "IxFW28Cv"
-    },
-    
-    {
-        "first_name": "Melicent",
-        "last_name": "Sartin",
-        "email": "msartinx@toplist.cz",
-        "password": "leY9Wz4q"
-    }
+    {"name":"Lyndsey Springett","email":"lspringetti@acquirethisname.com","password":"IXLdvJT6qYAf"},
+
+    {"name":"Frannie Hedgeley","email":"fhedgeleyj@cam.ac.uk","password":"KoRMjhs9iZI"},
+
+    {"name":"Kienan Ghest","email":"kghestk@columbia.edu","password":"nyvhgC"},
+
+    {"name":"Evin Walsh","email":"ewalshl@live.com","password":"AWVFsuTp"},
+
+    {"name":"Moyra Gyles","email":"mgylesm@goo.gl","password":"Rq9u6ME"},
+
+    {"name":"Maritsa Elcoat","email":"melcoatn@sohu.com","password":"w1QZ9EfV4O"},
+
+    {"name":"Horace Bedinham","email":"hbedinhamo@hostgator.com","password":"OllEMx"}
 
 ];
 
