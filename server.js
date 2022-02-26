@@ -4,6 +4,7 @@ import bcrypt from "bcrypt";
 import { hash } from "bcrypt";
 
 const app = express();
+app.use(express.json());
 
 app.get('/users', (req, res) => {
     res.json(users);
@@ -12,10 +13,9 @@ app.get('/users', (req, res) => {
 app.post('/users', async (req, res) => {
     try {
         const encryptedPassword = await bcrypt.hash(req.body.password, 10);
-        console.log(encryptedPassword);
         const user = { name: req.body.name, email: req.body.email, password: encryptedPassword }
         users.push(user);
-        res.status(200).send();
+        res.status(201).send();
     } catch {
         res.status(500).send();
     }
